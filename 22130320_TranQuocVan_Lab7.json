@@ -1,0 +1,2894 @@
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://cms.anhtester.com/shops/create\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://cms.anhtester.com/shops/create"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"name\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type Van",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"name\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "Van",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"email\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type vv1@gmail.com",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"email\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "vv1@gmail.com",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 123",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "123",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password_confirmation\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 123",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password_confirmation\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "123",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"shop_name\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type Shop shoe",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"shop_name\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "Shop shoe",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"address\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 123 Trinh Khac",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"address\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "123 Trinh Khac",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"address\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 123 Trinh Khac lap",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"address\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "123 Trinh Khac lap",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//form[@id=\\'shop\\']/div[3]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://cms.anhtester.com/shops\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://cms.anhtester.com/shops"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Dashboard\\'])[1]/preceding::div[2]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Dashboard\\'])[1]/preceding::div[2]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0,
+            "validate": [
+                {
+                    "type": "element_match",
+                    "failIfFound": false,
+                    "isRegex": false,
+                    "target": {
+                        "locators": [
+                            {
+                                "type": "dom",
+                                "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Dashboard\\'])[1]/preceding::h3[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                            }
+                        ]
+                    },
+                    "match": "Shop shoe"
+                }
+            ]
+        }
+    ]
+}
+
+
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://cms.anhtester.com/shops\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://cms.anhtester.com/shops"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Vietnamese\\'])[1]/following::span[4]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "a:contains(\"Logout\")"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://cms.anhtester.com/\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://cms.anhtester.com/"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "a:contains(\"Apply Now\")"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"name\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type Van",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"name\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "Van",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"email\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type f3@gmail.com",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"email\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "f3@gmail.com",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 1111",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "1111",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password_confirmation\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 2222",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password_confirmation\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "2222",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//form[@id=\\'shop\\']/div[3]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'All categories\\'])[1]/following::div[7]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0,
+            "validate": [
+                {
+                    "type": "element_match",
+                    "failIfFound": false,
+                    "isRegex": false,
+                    "target": {
+                        "locators": [
+                            {
+                                "type": "dom",
+                                "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'All categories\\'])[1]/following::h1[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                            }
+                        ]
+                    },
+                    "match": "Register Your Shop"
+                }
+            ]
+        }
+    ]
+}
+
+
+
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://cms.anhtester.com/shops/create\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://cms.anhtester.com/shops/create"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"name\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type Van",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"name\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "Van",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"email\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type ffff",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"email\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "ffff",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 123",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "123",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password_confirmation\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 123",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password_confirmation\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "123",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"shop_name\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type aaaa",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"shop_name\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "aaaa",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"address\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type qqqq",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"address\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "qqqq",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//form[@id=\\'shop\\']/div[3]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'All categories\\'])[1]/following::div[7]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0,
+            "validate": [
+                {
+                    "type": "element_match",
+                    "failIfFound": false,
+                    "isRegex": false,
+                    "target": {
+                        "locators": [
+                            {
+                                "type": "dom",
+                                "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'All categories\\'])[1]/following::h1[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                            }
+                        ]
+                    },
+                    "match": "Register Your Shop"
+                }
+            ]
+        }
+    ]
+}
+
+
+
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://cms.anhtester.com/shops/create\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://cms.anhtester.com/shops/create"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"name\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type Van",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"name\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "Van",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "type vv1@gmail.com",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"email\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "vv1@gmail.com",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 123",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "123",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password_confirmation\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 211",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password_confirmation\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "211",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"shop_name\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 111",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"shop_name\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "111",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"address\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type qwww",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"address\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "qwww",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//form[@id=\\'shop\\']/div[3]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Delete Account\\'])[1]/following::div[6]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0,
+            "validate": [
+                {
+                    "type": "element_match",
+                    "failIfFound": false,
+                    "isRegex": false,
+                    "target": {
+                        "locators": [
+                            {
+                                "type": "dom",
+                                "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Delete Account\\'])[1]/following::span[2]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                            }
+                        ]
+                    },
+                    "match": "Email already exists!"
+                }
+            ]
+        }
+    ]
+}
+
+
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://cms.anhtester.com/shops/create\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://cms.anhtester.com/shops/create"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"name\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type Van",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"name\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "Van",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"email\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type dc@gmail.com",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"email\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "dc@gmail.com",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 1234",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "1234",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password_confirmation\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 4321",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"password_confirmation\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "4321",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"shop_name\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type Shop shoe",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"shop_name\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "Shop shoe",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"address\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 1 Trinh Khap Lap",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"address\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "1 Trinh Khap Lap",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//form[@id=\\'shop\\']/div[3]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Delete Account\\'])[1]/following::div[6]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0,
+            "validate": [
+                {
+                    "type": "element_match",
+                    "failIfFound": false,
+                    "isRegex": false,
+                    "target": {
+                        "locators": [
+                            {
+                                "type": "dom",
+                                "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Delete Account\\'])[1]/following::span[2]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                            }
+                        ]
+                    },
+                    "match": "Sorry! Password did not match."
+                }
+            ]
+        }
+    ]
+}
+
+
+
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://cms.anhtester.com/seller/coupon\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://cms.anhtester.com/seller/coupon"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Coupons\\'])[1]/following::div[3]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//button[@type=\\'button\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "#bs-select-1-2"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "select option",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "javascript",
+            "javaScript": "\n                    let add = false;\n                    let x = typeof $ !== 'undefined' ? $('#coupon_type')[0] : document.querySelector('#coupon_type');\n                    for (i = 0; i < x.options.length; i++) {\n                        if (x.options[i].text === \"For Total Orders\") {\n                            if(add) {\n                                x.options[i].selected = true;\n                            } else {\n                                x.options.selectedIndex = i;\n                            }\n                        }\n                    }"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "#code"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type SALE10",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "#code"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "SALE10",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"min_buy\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 100000",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"min_buy\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "100000",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"discount\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'coupon_form\\']/div[4]/div[2]/div/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"discount\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 50",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"discount\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "50",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"max_discount\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 50000",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"max_discount\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "50000",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"date_range\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"date_range\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"date_range\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Cancel\\'])[1]/following::button[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//button[@type=\\'submit\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Delete\\'])[1]/following::div[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0,
+            "validate": [
+                {
+                    "type": "element_match",
+                    "failIfFound": false,
+                    "isRegex": false,
+                    "target": {
+                        "locators": [
+                            {
+                                "type": "dom",
+                                "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Delete\\'])[1]/following::span[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                            }
+                        ]
+                    },
+                    "match": "Coupon has been saved successfully"
+                }
+            ]
+        }
+    ]
+}
+
+
+
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://cms.anhtester.com/seller/coupon\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://cms.anhtester.com/seller/coupon"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//td[6]/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "#code"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type SALE20",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "#code"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "SALE20",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"min_buy\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"discount\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"discount\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 60",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"discount\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "60",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//button[@type=\\'submit\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Delete\\'])[1]/following::div[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0,
+            "validate": [
+                {
+                    "type": "element_match",
+                    "failIfFound": false,
+                    "isRegex": false,
+                    "target": {
+                        "locators": [
+                            {
+                                "type": "dom",
+                                "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Delete\\'])[1]/following::span[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                            }
+                        ]
+                    },
+                    "match": "Coupon has been updated successfully"
+                }
+            ]
+        }
+    ]
+}
+
+
+
+
+
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://cms.anhtester.com/seller/coupon\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://cms.anhtester.com/seller/coupon"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Cart Base\\'])[1]/following::a[2]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "#delete-link"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Delete\\'])[1]/following::div[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0,
+            "validate": [
+                {
+                    "type": "element_match",
+                    "failIfFound": false,
+                    "isRegex": false,
+                    "target": {
+                        "locators": [
+                            {
+                                "type": "dom",
+                                "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Delete\\'])[1]/following::span[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                            }
+                        ]
+                    },
+                    "match": "Coupon has been deleted successfully"
+                }
+            ]
+        }
+    ]
+}
+
+
+
+
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://cms.anhtester.com/seller/coupon\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://cms.anhtester.com/seller/coupon"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Coupons\\'])[1]/following::span[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Coupon Type\\'])[1]/following::div[5]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//a[@id=\\'bs-select-1-2\\']/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "select option",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "javascript",
+            "javaScript": "\n                    let add = false;\n                    let x = typeof $ !== 'undefined' ? $('#coupon_type')[0] : document.querySelector('#coupon_type');\n                    for (i = 0; i < x.options.length; i++) {\n                        if (x.options[i].text === \"For Total Orders\") {\n                            if(add) {\n                                x.options[i].selected = true;\n                            } else {\n                                x.options.selectedIndex = i;\n                            }\n                        }\n                    }"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"discount\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 50",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"discount\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "50",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"max_discount\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 10000",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"max_discount\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "10000",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"date_range\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Cancel\\'])[1]/following::button[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//button[@type=\\'submit\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"min_buy\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//button[@type=\\'submit\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Add Your Coupon\\'])[1]/following::div[4]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0,
+            "validate": [
+                {
+                    "type": "element_match",
+                    "failIfFound": false,
+                    "isRegex": false,
+                    "target": {
+                        "locators": [
+                            {
+                                "type": "dom",
+                                "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Add Your Coupon\\'])[1]/following::h5[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                            }
+                        ]
+                    },
+                    "match": "Coupon Information Adding"
+                }
+            ]
+        }
+    ]
+}
+
+
+
+
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://cms.anhtester.com/seller/coupon\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://cms.anhtester.com/seller/coupon"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Coupons\\'])[1]/following::div[3]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Coupon Type\\'])[1]/following::div[5]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//a[@id=\\'bs-select-1-2\\']/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "select option",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "javascript",
+            "javaScript": "\n                    let add = false;\n                    let x = typeof $ !== 'undefined' ? $('#coupon_type')[0] : document.querySelector('#coupon_type');\n                    for (i = 0; i < x.options.length; i++) {\n                        if (x.options[i].text === \"For Total Orders\") {\n                            if(add) {\n                                x.options[i].selected = true;\n                            } else {\n                                x.options.selectedIndex = i;\n                            }\n                        }\n                    }"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "#code"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type SALE20",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "#code"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "SALE20",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"min_buy\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 300000",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"min_buy\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "300000",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"discount\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 10",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"discount\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "10",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"max_discount\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 100000",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"max_discount\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "100000",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"date_range\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Cancel\\'])[1]/following::button[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//button[@type=\\'submit\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Coupon Information Adding\\'])[1]/following::li[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Coupon Information Adding\\'])[1]/following::li[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0,
+            "validate": [
+                {
+                    "type": "element_match",
+                    "failIfFound": false,
+                    "isRegex": false,
+                    "target": {
+                        "locators": [
+                            {
+                                "type": "dom",
+                                "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Coupon Information Adding\\'])[1]/following::li[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                            }
+                        ]
+                    },
+                    "match": "Coupon already exist for this coupon code"
+                }
+            ]
+        }
+    ]
+}
+
+
+
+
+
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://cms.anhtester.com/seller/coupon/create\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://cms.anhtester.com/seller/coupon/create"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Coupon Type\\'])[1]/following::div[5]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//a[@id=\\'bs-select-1-2\\']/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "select option",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "javascript",
+            "javaScript": "\n                    let add = false;\n                    let x = typeof $ !== 'undefined' ? $('#coupon_type')[0] : document.querySelector('#coupon_type');\n                    for (i = 0; i < x.options.length; i++) {\n                        if (x.options[i].text === \"For Total Orders\") {\n                            if(add) {\n                                x.options[i].selected = true;\n                            } else {\n                                x.options.selectedIndex = i;\n                            }\n                        }\n                    }"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "#code"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type SALE222",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "#code"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "SALE222",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"min_buy\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 100000",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"min_buy\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "100000",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"discount\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"max_discount\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "type 40000",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"max_discount\"]"
+                    }
+                ]
+            },
+            "type": "keystrokes",
+            "textValue": "40000",
+            "simulateBlurEvent": true,
+            "masked": false
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"date_range\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Cancel\\'])[1]/following::button[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//button[@type=\\'submit\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "[name=\"max_discount\"]"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//button[@type=\\'submit\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        }
+    ]
+}
+
+
+
+
+
+
+
