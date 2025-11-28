@@ -1,0 +1,154 @@
+{
+  "clickpaths": {
+    "AddToCart01": {
+      "name": "AddToCart01 - Thêm 1 sản phẩm (mặc định quantity = 1)",
+      "configuration": {
+        "device": {
+          "orientation": "landscape",
+          "deviceName": "Desktop"
+        }
+      },
+      "type": "clickpath",
+      "version": "1.0",
+      "events": [
+        {
+          "description": "Loading of \"https://cms.anhtester.com/product/lenovo-11-2024-04-7\"",
+          "wait": { "waitFor": "page_complete" },
+          "target": {},
+          "type": "navigate",
+          "url": "https://cms.anhtester.com/product/lenovo-11-2024-04-7"
+        },
+        {
+          "description": "click Add to Cart button",
+          "wait": { "waitFor": "page_complete" },
+          "target": {
+            "locators": [
+              {
+                "type": "dom",
+                "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'$10,000,000.00\\'])[2]/following::span[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+              }
+            ]
+          },
+          "type": "click",
+          "button": 0
+        },
+        {
+          "description": "click Proceed to Checkout",
+          "wait": { "waitFor": "page_complete" },
+          "target": {
+            "locators": [
+              { "type": "css", "value": "a:contains(\"Proceed to Checkout\")" }
+            ]
+          },
+          "type": "click",
+          "button": 0
+        },
+        {
+          "description": "Loading cart page",
+          "wait": { "waitFor": "page_complete" },
+          "target": {},
+          "type": "navigate",
+          "url": "https://cms.anhtester.com/cart"
+        }
+      ]
+    },
+
+    "AddToCart02": {
+      "name": "AddToCart02 - Nhập số lượng = 0 (kiểm tra validation)",
+      "configuration": { "device": { "orientation": "landscape", "deviceName": "Desktop" } },
+      "type": "clickpath",
+      "version": "1.0",
+      "events": [
+        { "description": "Loading product page", "wait": { "waitFor": "page_complete" }, "target": {}, "type": "navigate", "url": "https://cms.anhtester.com/product/lenovo-11-2024-04-7" },
+        { "description": "click quantity field", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "css", "value": "[name=\"quantity\"]" }] }, "type": "click", "button": 0 },
+        { "description": "type 0", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "css", "value": "[name=\"quantity\"]" }] }, "type": "keystrokes", "textValue": "0", "simulateBlurEvent": true, "masked": false },
+        { "description": "click Add to Cart", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "dom", "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'$10,000,000.00\\'])[2]/following::span[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()" }] }, "type": "click", "button": 0 },
+        { "description": "click Continue Shopping (nếu có modal)", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "dom", "value": "document.evaluate('//div[@id=\\'addToCart-modal-body\\']/div/div[2]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()" }] }, "type": "click", "button": 0 }
+      ]
+    },
+
+    "AddToCart03": {
+      "name": "AddToCart03 - Nhập số lượng = 2",
+      "configuration": { "device": { "orientation": "landscape", "deviceName": "Desktop" } },
+      "type": "clickpath",
+      "version": "1.0",
+      "events": [
+        { "description": "Loading product page", "wait": { "waitFor": "page_complete" }, "target": {}, "type": "navigate", "url": "https://cms.anhtester.com/product/lenovo-11-2024-04-7" },
+        { "description": "click quantity field", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "css", "value": "[name=\"quantity\"]" }] }, "type": "click", "button": 0 },
+        { "description": "type 2", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "css", "value": "[name=\"quantity\"]" }] }, "type": "keystrokes", "textValue": "2", "simulateBlurEvent": true, "masked": false },
+        { "description": "click Add to Cart", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "dom", "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'$10,000,000.00\\'])[2]/following::span[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()" }] }, "type": "click", "button": 0 },
+        { "description": "click Proceed to Checkout", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "css", "value": "a:contains(\"Proceed to Checkout\")" }] }, "type": "click", "button": 0 },
+        { "description": "Loading cart page", "wait": { "waitFor": "page_complete" }, "target": {}, "type": "navigate", "url": "https://cms.anhtester.com/cart" }
+      ]
+    },
+
+    "AddToCart04": {
+      "name": "AddToCart04 - Nhập số lượng = 999 (giới hạn lớn)",
+      "configuration": { "device": { "orientation": "landscape", "deviceName": "Desktop" } },
+      "type": "clickpath",
+      "version": "1.0",
+      "events": [
+        { "description": "Loading product page", "wait": { "waitFor": "page_complete" }, "target": {}, "type": "navigate", "url": "https://cms.anhtester.com/product/lenovo-11-2024-04-7" },
+        { "description": "click quantity field", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "css", "value": "[name=\"quantity\"]" }] }, "type": "click", "button": 0 },
+        { "description": "type 999", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "css", "value": "[name=\"quantity\"]" }] }, "type": "keystrokes", "textValue": "999", "simulateBlurEvent": true, "masked": false },
+        { "description": "click Add to Cart", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "dom", "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'$10,000,000.00\\'])[2]/following::span[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()" }] }, "type": "click", "button": 0 },
+        { "description": "click Continue Shopping", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "dom", "value": "document.evaluate('//div[@id=\\'addToCart-modal-body\\']/div/div[2]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()" }] }, "type": "click", "button": 0 }
+      ]
+    },
+
+    "Newest": {
+      "name": "Newest - Sắp xếp sản phẩm theo Newest",
+      "configuration": { "device": { "orientation": "landscape", "deviceName": "Desktop" } },
+      "type": "clickpath",
+      "version": "1.0",
+      "events": [
+        { "description": "Loading search page", "wait": { "waitFor": "page_complete" }, "target": {}, "type": "navigate", "url": "https://cms.anhtester.com/search?keyword=lap&brand=&sort_by=oldest&min_price=&max_price=" },
+        { "description": "click sort dropdown", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "dom", "value": "document.evaluate('//form[@id=\\'search-form\\']/div/div[2]/div/div/div[4]/div/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()" }] }, "type": "click", "button": 0 },
+        { "description": "click Newest option", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "css", "value": "#bs-select-2-0" }] }, "type": "click", "button": 0 },
+        { "description": "select Newest via JS", "wait": { "waitFor": "page_complete" }, "target": {}, "type": "javascript", "javaScript": "let add = false; let x = typeof $ !== 'undefined' ? $('[name=\"sort_by\"]')[0] : document.querySelector('[name=\"sort_by\"]'); for (i = 0; i < x.options.length; i++) { if (x.options[i].text === \"Newest\") { if(add) { x.options[i].selected = true; } else { x.options.selectedIndex = i; } } }" },
+        { "description": "Loading newest sorted page", "wait": { "waitFor": "page_complete" }, "target": {}, "type": "navigate", "url": "https://cms.anhtester.com/search?keyword=lap&brand=&sort_by=newest&min_price=&max_price=" }
+      ]
+    },
+
+    "Oldest": {
+      "name": "Oldest - Sắp xếp sản phẩm theo Oldest",
+      "configuration": { "device": { "orientation": "landscape", "deviceName": "Desktop" } },
+      "type": "clickpath",
+      "version": "1.0",
+      "events": [
+        { "description": "Loading search page", "wait": { "waitFor": "page_complete" }, "target": {}, "type": "navigate", "url": "https://cms.anhtester.com/search?keyword=lap" },
+        { "description": "click sort dropdown", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "dom", "value": "document.evaluate('//form[@id=\\'search-form\\']/div/div[2]/div/div/div[4]/div/button/div/div/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()" }] }, "type": "click", "button": 0 },
+        { "description": "click Oldest option", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "css", "value": "#bs-select-2-1" }] }, "type": "click", "button": 0 },
+        { "description": "select Oldest via JS", "wait": { "waitFor": "page_complete" }, "target": {}, "type": "javascript", "javaScript": "let add = false; let x = typeof $ !== 'undefined' ? $('[name=\"sort_by\"]')[0] : document.querySelector('[name=\"sort_by\"]'); for (i = 0; i < x.options.length; i++) { if (x.options[i].text === \"Oldest\") { if(add) { x.options[i].selected = true; } else { x.options.selectedIndex = i; } } }" }
+      ]
+    },
+
+    "PriceHighToLow": {
+      "name": "PriceHighToLow - Sắp xếp giá từ cao đến thấp",
+      "configuration": { "device": { "orientation": "landscape", "deviceName": "Desktop" } },
+      "type": "clickpath",
+      "version": "1.0",
+      "events": [
+        { "description": "Loading search page", "wait": { "waitFor": "page_complete" }, "target": {}, "type": "navigate", "url": "https://cms.anhtester.com/search?keyword=lap&brand=&sort_by=price-asc&min_price=&max_price=" },
+        { "description": "click sort dropdown", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "dom", "value": "document.evaluate('//form[@id=\\'search-form\\']/div/div[2]/div/div/div[4]/div/button/div/div/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()" }] }, "type": "click", "button": 0 },
+        { "description": "click Price high to low", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "dom", "value": "document.evaluate('//a[@id=\\'bs-select-2-3\\']/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()" }] }, "type": "click", "button": 0 },
+        { "description": "select Price high to low via JS", "wait": { "waitFor": "page_complete" }, "target": {}, "type": "javascript", "javaScript": "let add = false; let x = typeof $ !== 'undefined' ? $('[name=\"sort_by\"]')[0] : document.querySelector('[name=\"sort_by\"]'); for (i = 0; i < x.options.length; i++) { if (x.options[i].text === \"Price high to low\") { if(add) { x.options[i].selected = true; } else { x.options.selectedIndex = i; } } }" },
+        { "description": "Loading price desc page", "wait": { "waitFor": "page_complete" }, "target": {}, "type": "navigate", "url": "https://cms.anhtester.com/search?keyword=lap&brand=&sort_by=price-desc&min_price=&max_price=" }
+      ]
+    },
+
+    "PriceLowToHigh": {
+      "name": "PriceLowToHigh - Sắp xếp giá từ thấp đến cao",
+      "configuration": { "device": { "orientation": "landscape", "deviceName": "Desktop" } },
+      "type": "clickpath",
+      "version": "1.0",
+      "events": [
+        { "description": "Loading search page", "wait": { "waitFor": "page_complete" }, "target": {}, "type": "navigate", "url": "https://cms.anhtester.com/search?keyword=lap&brand=&sort_by=newest&min_price=&max_price=" },
+        { "description": "click sort dropdown", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "dom", "value": "document.evaluate('//form[@id=\\'search-form\\']/div/div[2]/div/div/div[4]/div/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()" }] }, "type": "click", "button": 0 },
+        { "description": "click Price low to high", "wait": { "waitFor": "page_complete" }, "target": { "locators": [{ "type": "dom", "value": "document.evaluate('//a[@id=\\'bs-select-2-2\\']/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()" }] }, "type": "click", "button": 0 },
+        { "description": "select Price low to high via JS", "wait": { "waitFor": "page_complete" }, "target": {}, "type": "javascript", "javaScript": "let add = false; let x = typeof $ !== 'undefined' ? $('[name=\"sort_by\"]')[0] : document.querySelector('[name=\"sort_by\"]'); for (i = 0; i < x.options.length; i++) { if (x.options[i].text === \"Price low to high\") { if(add) { x.options[i].selected = true; } else { x.options.selectedIndex = i; } } }" },
+        { "description": "Loading price asc page", "wait": { "waitFor": "page_complete" }, "target": {}, "type": "navigate", "url": "https://cms.anhtester.com/search?keyword=lap&brand=&sort_by=price-asc&min_price=&max_price=" }
+      ]
+    }
+  }
+}
