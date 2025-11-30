@@ -1,6 +1,6 @@
 [
   {
-    "info": "SIGNUPCREATEUSERSUCCESS01",
+    "fileName": "SIGNUPCREATEUSERSUCCESS01.json",
     "configuration": {
       "device": {
         "orientation": "landscape",
@@ -206,7 +206,7 @@
     ]
   },
   {
-    "info": "SIGNUPCREATEFAILMISSINGNAME02",
+    "fileName": "SIGNUPCREATEFAILMISSINGNAME02.json",
     "configuration": {
       "device": {
         "orientation": "landscape",
@@ -378,7 +378,7 @@
     ]
   },
   {
-    "info": "SIGNUPCREATEFAILEMAILEXISTS03",
+    "fileName": "SIGNUPCREATEFAILEMAILEXISTS03.json",
     "configuration": {
       "device": {
         "orientation": "landscape",
@@ -584,7 +584,7 @@
     ]
   },
   {
-    "info": "SIGNUPCREATEFAILPASSWORDNOTMATCH04",
+    "fileName": "SIGNUPCREATEFAILPASSWORDNOTMATCH04.json",
     "configuration": {
       "device": {
         "orientation": "landscape",
@@ -790,7 +790,7 @@
     ]
   },
   {
-    "info": "SIGNUPCREATEFAILWEAKPASSWORD05",
+    "fileName": "SIGNUPCREATEFAILWEAKPASSWORD05.json",
     "configuration": {
       "device": {
         "orientation": "landscape",
@@ -1096,7 +1096,7 @@
     ]
   },
   {
-    "info": "SIGNUPCREATEFAILUNCHECKTERMS06",
+    "fileName": "SIGNUPCREATEFAILUNCHECKTERMS06.json",
     "configuration": {
       "device": {
         "orientation": "landscape",
@@ -1286,7 +1286,7 @@
     ]
   },
   {
-    "info": "ADDPRODUCTSUCCESSWISHLIST01",
+    "fileName": "ADDPRODUCTSUCCESSWISHLIST01.json",
     "configuration": {
       "device": {
         "orientation": "landscape",
@@ -1430,55 +1430,55 @@
           "locators": [
             {
               "type": "dom",
-              "value": "document.evaluate('//div[@id=\\'section_newest\\']/section/div/div/div[2]/div/div/div[3]/div/div/div/div/div/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
-            }
-          ]
-        },
-        "type": "click",
-        "button": 0
-      },
-      {
-        "description": "click",
-        "wait": {
-          "waitFor": "page_complete"
-        },
-        "target": {
-          "locators": [
-            {
-              "type": "dom",
-              "value": "document.evaluate('//a[@onclick=\\'addToWishList(2590)\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
-            }
-          ]
-        },
-        "type": "click",
-        "button": 0
-      },
-      {
-        "description": "click",
-        "wait": {
-          "waitFor": "page_complete"
-        },
-        "target": {
-          "locators": [
-            {
-              "type": "dom",
-              "value": "document.evaluate('//div[@id=\\'section_newest\\']/section/div/div/div[2]/div/div/div[2]/div/div/div/div/div/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
-            }
-          ]
-        },
-        "type": "click",
-        "button": 0
-      },
-      {
-        "description": "click",
-        "wait": {
-          "waitFor": "page_complete"
-        },
-        "target": {
-          "locators": [
-            {
-              "type": "dom",
               "value": "document.evaluate('//div[@id=\\'section_newest\\']/section/div/div/div[2]/div/div/div/div/div/div/div/div/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'section_newest\\']/section/div/div/div[2]/div/div/div[4]/div/div/div/div/div/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'wishlist\\']/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Logout\")"
             }
           ]
         },
@@ -1488,7 +1488,7 @@
     ]
   },
   {
-    "info": "VIEWLISTWISHLIST02",
+    "fileName": "VIEWLISTWISHLIST02.json",
     "configuration": {
       "device": {
         "orientation": "landscape",
@@ -1622,11 +1622,36 @@
         },
         "type": "click",
         "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Logout\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"https://cms.anhtester.com/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://cms.anhtester.com/"
       }
     ]
   },
   {
-    "info": "MOVEPRODUCTTOCARTWISHLIST03",
+    "fileName": "MOVEPRODUCTTOCARTWISHLIST03.json",
     "configuration": {
       "device": {
         "orientation": "landscape",
@@ -1840,11 +1865,36 @@
         },
         "type": "click",
         "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Logout\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"https://cms.anhtester.com/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://cms.anhtester.com/"
       }
     ]
   },
   {
-    "info": "REMOVEPRODUCTWISHLIST04",
+    "fileName": "REMOVEPRODUCTWISHLIST04.json",
     "configuration": {
       "device": {
         "orientation": "landscape",
@@ -1994,11 +2044,36 @@
         },
         "type": "click",
         "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Logout\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"https://cms.anhtester.com/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://cms.anhtester.com/"
       }
     ]
   },
   {
-    "info": "SAVEAFTERLOGOUTWISHLIST05",
+    "fileName": "SAVEAFTERLOGOUTWISHLIST05.json",
     "configuration": {
       "device": {
         "orientation": "landscape",
